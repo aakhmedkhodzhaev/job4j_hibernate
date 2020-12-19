@@ -17,20 +17,14 @@ public class HbmRun {
             Session session = sf.openSession();
             session.beginTransaction();
 
-            Brand one = Brand.of("Malibu");
-            Brand two = Brand.of("Tracker");
-            Brand three = Brand.of("Cruz");
-            Brand four = Brand.of("Cavalier");
-            Brand five = Brand.of("Camaro");
-            // session.save(one);
+            Brand one = Brand.of("X5");
+            session.save(one);
 
-            Model mx = Model.of("Chevrolet");
-            mx.getBrands().add(one);
-            mx.getBrands().add(two);
-            mx.getBrands().add(three);
-            mx.getBrands().add(four);
-            mx.getBrands().add(five);
-         // mx.addBrand(session.load(Brand.class, 1));
+            Brand two = Brand.of("X6");
+            session.save(two);
+
+            Model mx = Model.of("BMW");
+            mx.addBrand(session.load(Brand.class, 1));
 
             session.save(mx);
 
