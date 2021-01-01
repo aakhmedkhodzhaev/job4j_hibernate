@@ -25,7 +25,7 @@ public class HbmRun {
 
             Model mx = Model.of("BMW");
             mx.addBrand(session.load(Brand.class, 1));
-
+            mx.addBrand(session.load(Brand.class, 2));
             session.save(mx);
 
             session.getTransaction().commit();

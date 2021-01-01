@@ -12,6 +12,6 @@ create table j_brand (
 );
 
 create table j_model_j_brand(
-	model_id int not null references j_model(id),
+	  model_id int not null references j_model(id),
     brands_id int not null references j_brand(id)
 );

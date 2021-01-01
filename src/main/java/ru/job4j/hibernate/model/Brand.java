@@ -24,8 +24,15 @@ public class Brand {
 
     @Override
     public boolean equals(Object o) {
-        if (this == o) return true;
-        if (!(o instanceof Brand)) return false;
+
+        if (this == o) {
+            return true;
+        }
+
+        if (!(o instanceof Brand)) {
+            return false;
+        }
+
         Brand brand = (Brand) o;
         return getId() == brand.getId();
     }
