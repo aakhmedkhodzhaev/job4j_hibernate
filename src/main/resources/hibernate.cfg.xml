@@ -20,6 +20,10 @@
         <mapping class="ru.job4j.hibernate.manytomany.Address"/>
         <mapping class="ru.job4j.hibernate.library.Authors"/>
         <mapping class="ru.job4j.hibernate.library.Books"/>
+        <mapping class="ru.job4j.hibernate.todolist.Task"/>
+        <mapping class="ru.job4j.hibernate.todolist.Category"/>
+        <mapping class="ru.job4j.hibernate.manufacturer.Mark"/>
+        <mapping class="ru.job4j.hibernate.manufacturer.Model"/>
 
     </session-factory>
 </hibernate-configuration>
