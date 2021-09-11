@@ -42,7 +42,5 @@ public class HBRun {
        } finally {
          StandardServiceRegistryBuilder.destroy(registry);
        }
-
-
     }
 }

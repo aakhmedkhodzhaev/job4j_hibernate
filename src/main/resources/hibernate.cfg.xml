@@ -22,8 +22,8 @@
         <mapping class="ru.job4j.hibernate.library.Books"/>
         <mapping class="ru.job4j.hibernate.todolist.Task"/>
         <mapping class="ru.job4j.hibernate.todolist.Category"/>
-        <mapping class="ru.job4j.hibernate.manufacturer.Mark"/>
-        <mapping class="ru.job4j.hibernate.manufacturer.Model"/>
+        <mapping class="ru.job4j.hibernate.manufacturer.Marks"/>
+        <mapping class="ru.job4j.hibernate.manufacturer.Models"/>
 
     </session-factory>
 </hibernate-configuration>
