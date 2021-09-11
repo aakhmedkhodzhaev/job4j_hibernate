@@ -12,8 +12,14 @@
         <property name="hibernate.current_session_context_class">thread</property>
         <property name="hibernate.show_sql">true</property>
         <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQL10Dialect</property>
+        <property name="hibernate.hbm2ddl.auto">create</property>
 
         <mapping class="ru.job4j.hibernate.model.Model"/>
         <mapping class="ru.job4j.hibernate.model.Brand"/>
+        <mapping class="ru.job4j.hibernate.manytomany.Person"/>
+        <mapping class="ru.job4j.hibernate.manytomany.Address"/>
+        <mapping class="ru.job4j.hibernate.library.Authors"/>
+        <mapping class="ru.job4j.hibernate.library.Books"/>
+
     </session-factory>
 </hibernate-configuration>

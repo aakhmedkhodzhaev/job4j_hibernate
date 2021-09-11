@@ -7,7 +7,7 @@ import java.util.Objects;
 
 @Data
 @Entity
-@Table(name = "j_brand")
+@Table(name = "m_brand")
 public class Brand {
 
     @Id

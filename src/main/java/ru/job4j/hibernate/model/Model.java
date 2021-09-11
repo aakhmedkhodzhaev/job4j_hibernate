@@ -14,7 +14,7 @@ import java.util.List;
 import java.util.Objects;
 
 @Entity
-@Table(name = "j_model")
+@Table(name = "m_model")
 public class Model {
 
     @Id
